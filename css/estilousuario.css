@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+	font-weight: bold;
+}
+body{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+header{
+	/*border: 2px solid red;*/
+	position: relative;
+	background: black;
+
+}
+.contenedor{
+	/*width: 1200px;*/
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	color: black;
+	/*border: 4px solid orange;*/
+}
+main .contenedor{
+	min-height: calc(100vh - 140px - 70px);
+}
+header .usuario img{
+	width: 90px;
+	height: 140px;
+}
+.logo{
+	/*border: 2px solid green;*/
+	float:left;
+	position: relative;
+	margin-top: 20px;
+}
+.usuario{
+	/*border: 2px solid blue;*/
+	float: right;
+	position: relative;
+	overflow: hidden;
+	width: 40%;
+	background: black;
+}
+.usuario .foto1{
+	float: left;
+
+}
+.usuario p{
+	padding-top: 20px;
+    position: relative;
+    left: 40px;
+    font-weight: bold;
+    color: white;
+	padding-right: 20px;
+}
+.usuario p a{
+	text-decoration: none;
+	color: blue;
+}
+.usuario p a:hover{
+	text-decoration: normal;
+	color: red;
+}
+
+.contenedor h1,h3{
+	margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+}
+span{
+	color: red;
+}
+main .contenedor p{
+	margin-left: 120px;
+}
+table{
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	border-color: red;
+	margin-bottom: 30px;
+}
+table tr th,table tr td{
+	padding: 10px;
+}
+
+footer{
+    height: 70px;
+    /*width: 100%;*/
+    background: black;
+    color: white;
+}
+footer.pie_pag .contenedor{
+	color: white;
+	text-align: center;
+}
